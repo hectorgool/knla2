@@ -1,2 +1,11 @@
 
 http://stackoverflow.com/questions/28214499/laravel-5-not-finding-css-files
+
+ 2078  chmod 777 -Rv storage
+ 2079  find . -name vendor -print
+ 2080  chmod 777 -Rv resources/views/vendor/
+ 2081  php artisan serve
+ 2082  php -v
+ 2083  composer update
+ 2084  php artisan serve
+
