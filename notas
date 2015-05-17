@@ -9,3 +9,13 @@ http://stackoverflow.com/questions/28214499/laravel-5-not-finding-css-files
  2083  composer update
  2084  php artisan serve
 
+
+php artisan migrate:refresh
+php artisan migrate:refresh --seed
+
+ [ReflectionException]                 
+  Class UserTableSeeder does not exist  
+                                       
+                                       composer dump-autoload
+
+                                       php artisan clear-compiled
