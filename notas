@@ -13,9 +13,17 @@ http://stackoverflow.com/questions/28214499/laravel-5-not-finding-css-files
 php artisan migrate:refresh
 php artisan migrate:refresh --seed
 
- [ReflectionException]                 
-  Class UserTableSeeder does not exist  
+[ReflectionException]                 
+Class UserTableSeeder does not exist  
                                        
-                                       composer dump-autoload
+composer dump-autoload
+php artisan clear-compiled
 
-                                       php artisan clear-compiled
+
+php artisan make:controller EquipoController
+
+
+php artisan route:list
+
+
+curl -i -H "Accept: application/json" http://localhost:8000/equipo  
